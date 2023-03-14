@@ -34,6 +34,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -48,6 +49,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
 
         }
@@ -67,6 +69,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -81,6 +84,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -100,6 +104,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -114,6 +119,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -133,6 +139,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -147,6 +154,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -165,6 +173,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -179,6 +188,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -197,6 +207,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -211,6 +222,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -229,6 +241,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -243,6 +256,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -262,6 +276,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -276,6 +291,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -295,6 +311,7 @@ namespace AppJogoDaVelha
                 Testa7(1);
                 Testa8(1);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
             else
             {
@@ -309,6 +326,7 @@ namespace AppJogoDaVelha
                 Testa7(2);
                 Testa8(2);
                 jogada++;
+                label1.Text = "Jogadas: " + jogada;
             }
         }
 
@@ -383,7 +401,7 @@ namespace AppJogoDaVelha
             if (jogador == 1)
             {
                 t = "X";
-                if (t == button1.Text && t == button6.Text && t == button9.Text)
+                if (t == button1.Text && t == button4.Text && t == button7.Text)
                 {
                     MessageBox.Show("Jogador 1 Venceu");
                 }
@@ -391,7 +409,7 @@ namespace AppJogoDaVelha
             else
             {
                 t = "O";
-                if (t == button1.Text && t == button6.Text && t == button9.Text)
+                if (t == button1.Text && t == button4.Text && t == button7.Text)
                 {
                     MessageBox.Show("Jogador 2 Venceu");
                 }
@@ -427,7 +445,7 @@ namespace AppJogoDaVelha
             if (jogador == 1)
             {
                 t = "X";
-                if (t == button3.Text && t == button4.Text && t == button7.Text)
+                if (t == button3.Text && t == button6.Text && t == button9.Text)
                 {
                     MessageBox.Show("Jogador 1 Venceu");
                 }
@@ -435,7 +453,7 @@ namespace AppJogoDaVelha
             else
             {
                 t = "O";
-                if (t == button3.Text && t == button4.Text && t == button7.Text)
+                if (t == button3.Text && t == button6.Text && t == button9.Text)
                 {
                     MessageBox.Show("Jogador 2 Venceu");
                 }
@@ -449,7 +467,7 @@ namespace AppJogoDaVelha
             if (jogador == 1)
             {
                 t = "X";
-                if (t == button1.Text && t == button5.Text && t == button7.Text)
+                if (t == button1.Text && t == button5.Text && t == button9.Text)
                 {
                     MessageBox.Show("Jogador 1 Venceu");
                 }
@@ -457,7 +475,7 @@ namespace AppJogoDaVelha
             else
             {
                 t = "O";
-                if (t == button1.Text && t == button5.Text && t == button7.Text)
+                if (t == button1.Text && t == button5.Text && t == button9.Text)
                 {
                     MessageBox.Show("Jogador 2 Venceu");
                 }
@@ -471,7 +489,7 @@ namespace AppJogoDaVelha
             if (jogador == 1)
             {
                 t = "X";
-                if (t == button3.Text && t == button5.Text && t == button9.Text)
+                if (t == button3.Text && t == button5.Text && t == button7.Text)
                 {
                     MessageBox.Show("Jogador 1 Venceu");
                 }
@@ -479,7 +497,7 @@ namespace AppJogoDaVelha
             else
             {
                 t = "O";
-                if (t == button3.Text && t == button5.Text && t == button9.Text)
+                if (t == button3.Text && t == button5.Text && t == button7.Text)
                 {
                     MessageBox.Show("Jogador 2 Venceu");
                 }
@@ -487,6 +505,13 @@ namespace AppJogoDaVelha
 
         }
 
+
+     
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
